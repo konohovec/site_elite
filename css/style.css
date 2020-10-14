@@ -1,0 +1,121 @@
+@font-face {
+	font-family: "Open Sans";
+	src: url(../fonts/OpenSans-Light.ttf);
+}
+@font-face {
+	font-family: "Noto Sans";
+	src: url(../fonts/NotoSans-Regular.ttf);
+}
+@font-face {
+	font-family: Lora;
+	src: url(../fonts/Lora-Italic-VariableFont_wght.ttf);
+}
+
+
+
+
+.wrapper {
+	display: flex;
+	min-width: 100vw;
+	min-height: 100vh;
+}
+.menu {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	max-width: 310px;
+	background: url(../img/bg_left.jpg);
+}
+.menu__logo {
+	z-index: 1;
+	position: relative;
+	color: #f4f4f4;
+	font-family: Georgia;
+	font-size: 48px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 15.52px;
+	text-align: left;
+	text-transform: uppercase;
+	border: 3px solid #c57c40;
+	opacity: 0.65;
+	padding: 17px 14px 21px 11px;
+	margin: 30px 0 0 0;
+}
+.menu__logo:after {
+	content: "";
+	bottom: -8px;
+	left: 14px;
+	position: absolute;
+	width: 81px;
+	height: 1.5px;
+	background-color: #c57c40;
+	opacity: 0.41;
+}
+.menu__logo:before {
+	z-index: 2;
+	background: url(../img/bg_left.jpg);
+	content: 'декор центр';
+	position: absolute;
+	top: 46px;
+	right: 29px;
+	color: #f5f5f5;
+	font-family: Georgia;
+	font-size: 15px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	text-transform: uppercase;
+	padding: 0 8px;
+}
+.menu__text{
+	color: #aaa9a9;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 300;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 20px;
+	text-align: left;
+	margin: 33px 0 0 23px;
+}
+.menu__main {
+	margin-left: 0;
+}
+.menu__main_list > li{
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 300;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 62px;
+	text-align: left;
+	text-transform: uppercase;
+	border-bottom: 1px solid rgba(104, 100, 100, .48);
+}
+.menu__main_list > li > a {
+	color: #f7f7f7;
+}
+.menu__list {
+}
+.menu__contact {
+}
+.main {
+}
+.main__slider {
+}
+.main__img {
+}
+.main__img img{
+	width: 80%;
+	max-height: 100vh;
+}
+.main__descr {
+}
+.main__descr_text {
+}
+.main__descr_button {
+}
